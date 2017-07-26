@@ -1,7 +1,7 @@
-/*
+package gift1;/*
 ID: aubhros1
 LANG: JAVA
-TASK: gift1
+TASK: gift1.gift1
 */
 
 import java.io.*;
@@ -11,10 +11,10 @@ public class gift1 {
     public static void main(String [] args) throws IOException {
 
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("gift1.in"));
+        BufferedReader f = new BufferedReader(new FileReader("gift1/gift1.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("gift1.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("gift1.gift1.out")));
 
         // Use StringTokenizer vs. readLine/split -- lots faster
         // StringTokenizer st = new StringTokenizer(f.readLine());

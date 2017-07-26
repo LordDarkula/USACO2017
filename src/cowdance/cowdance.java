@@ -1,7 +1,7 @@
-/*
+package cowdance;/*
 ID: aubhros1
 LANG: JAVA
-TASK: cowdance
+TASK: cowdance.cowdance
 */
 
 import java.io.*;
@@ -59,10 +59,10 @@ public class cowdance {
     public static void main(String [] args) throws IOException {
 
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("cowdance.in"));
+        BufferedReader f = new BufferedReader(new FileReader("cowdance/cowdance.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowdance.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowdance.cowdance.out")));
 
         // Use StringTokenizer vs. readLine/split -- lots faster
         StringTokenizer st = new StringTokenizer(f.readLine());

@@ -1,7 +1,7 @@
-/*
+package notlast;/*
 ID: aubhros1
 LANG: JAVA
-TASK: notlast
+TASK: notlast.notlast
 */
 
 import java.io.*;
@@ -12,10 +12,10 @@ public class notlast {
     public static void main(String[] args) throws IOException
     {
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("notlast.in"));
+        BufferedReader f = new BufferedReader(new FileReader("notlast/notlast.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("notlast.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("notlast.notlast.out")));
 
         // StringTokenizer st = new StringTokenizer(f.readLine());
 

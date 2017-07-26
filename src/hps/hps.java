@@ -1,7 +1,7 @@
-/*
+package hps;/*
 ID: aubhros1
 LANG: JAVA
-TASK: hps
+TASK: hps.hps
 */
 
 import java.io.*;
@@ -63,10 +63,10 @@ public class hps {
 
     public static void main(String[] args) throws IOException {
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("hps.in"));
+        BufferedReader f = new BufferedReader(new FileReader("hps/hps.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("hps.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("hps.hps.out")));
 
         int length = Integer.parseInt(f.readLine());
 

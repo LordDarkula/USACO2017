@@ -1,7 +1,7 @@
-/*
+package blocks;/*
 ID: aubhros1
 LANG: JAVA
-TASK: blocks
+TASK: blocks.blocks
 */
 
 
@@ -12,10 +12,10 @@ public class blocks {
     public static void main(String[] args) throws IOException {
 
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("blocks.in"));
+        BufferedReader f = new BufferedReader(new FileReader("blocks/blocks.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("blocks.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("blocks.blocks.out")));
 
         int length = Integer.parseInt(f.readLine());
 

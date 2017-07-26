@@ -1,7 +1,7 @@
-/*
+package cowsignal;/*
 ID: aubhros1
 LANG: JAVA
-TASK: cowsignal
+TASK: cowsignal.cowsignal
 */
 
 import java.io.*;
@@ -11,10 +11,10 @@ public class cowsignal {
     public static void main(String[] args) throws IOException {
 
         // Use BufferedReader rather than RandomAccessFile; it's much faster
-        BufferedReader f = new BufferedReader(new FileReader("cowsignal.in"));
+        BufferedReader f = new BufferedReader(new FileReader("cowsignal/cowsignal.in"));
 
         // input file name goes above
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowsignal.out")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowsignal.cowsignal.out")));
 
         StringTokenizer st = new StringTokenizer(f.readLine());
 
